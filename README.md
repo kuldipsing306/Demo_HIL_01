@@ -1,2 +1,35 @@
 # Demo_HIL_01
 Demo HIL project
+Demo_HIL_01/
+│
+├── main.py
+│
+├── app/
+│   ├── gui.py
+│   ├── dashboard.py
+│   ├── virtual_ecu.py
+│   ├── hil_rack.py
+│   ├── fiu.py
+│   ├── can_monitor.py
+│   ├── dtc_manager.py
+│   └── widgets/
+│       ├── led_indicator.py
+│       ├── io_card_widget.py
+│       ├── sensor_widget.py
+│       └── status_bar.py
+│
+├── backend/
+│   ├── ecu_logic.py
+│   ├── can_bus.py
+│   ├── io_cards.py
+│   ├── dtc_engine.py
+│   ├── vehicle_model.py
+│   └── fault_manager.py
+│
+├── matlab/
+│
+├── config/
+│
+├── assets/
+│
+└── README.md
